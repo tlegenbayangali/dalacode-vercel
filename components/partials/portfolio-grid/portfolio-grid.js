@@ -3,9 +3,12 @@ export default function PortfolioGrid() {
         <div className="row dalacode-grid">
             <div className="col-lg-6">
                 <div className="portfolio-item">
-                    <img className="portfolio-item__image mb-10"
-                         src="/assets/img/guideline-and-brand-book-creation-and-examples-1 1.jpg"
-                         alt="Брендбук компании Airsoft" />
+                    <picture>
+                        <source srcSet={'/assets/img/guideline-and-brand-book-creation-and-examples-1 1.webp'} type="image/webp" />
+                        <img className="portfolio-item__image mb-10"
+                             src="/assets/img/guideline-and-brand-book-creation-and-examples-1 1.jpg"
+                             alt="Брендбук компании Airsoft" />
+                    </picture>
                         <h6 className="mb-10">
                             Брендбук компании Airsoft
                         </h6>
@@ -20,9 +23,12 @@ export default function PortfolioGrid() {
             </div>
             <div className="col-lg-6">
                 <div className="portfolio-item">
-                    <img className="portfolio-item__image mb-10"
-                         src="/assets/img/guideline-and-brand-book-creation-and-examples-guid 1.jpg"
-                         alt="Брендбук компании Applesin" />
+                    <picture>
+                        <source srcSet={'/assets/img/guideline-and-brand-book-creation-and-examples-guid 1.webp'} type="image/webp" />
+                        <img className="portfolio-item__image mb-10"
+                             src="/assets/img/guideline-and-brand-book-creation-and-examples-guid 1.jpg"
+                             alt="Брендбук компании Applesin" />
+                    </picture>
                         <h6 className="mb-10">
                             Брендбук компании Applesin
                         </h6>
@@ -37,9 +43,12 @@ export default function PortfolioGrid() {
             </div>
             <div className="col-lg-6">
                 <div className="portfolio-item">
-                    <img className="portfolio-item__image mb-10"
-                         src="/assets/img/guideline-and-brand-book-creation-and-examples-guid 1.jpg"
-                         alt="Брендбук компании Applesin" />
+                    <picture>
+                        <source srcSet={'/assets/img/guideline-and-brand-book-creation-and-examples-guid 1.webp'} type="image/webp" />
+                        <img className="portfolio-item__image mb-10"
+                             src="/assets/img/guideline-and-brand-book-creation-and-examples-guid 1.jpg"
+                             alt="Брендбук компании Applesin" />
+                    </picture>
                         <h6 className="mb-10">
                             Брендбук компании Applesin
                         </h6>
@@ -54,9 +63,12 @@ export default function PortfolioGrid() {
             </div>
             <div className="col-lg-6">
                 <div className="portfolio-item">
-                    <img className="portfolio-item__image mb-10"
-                         src="/assets/img/guideline-and-brand-book-creation-and-examples-1 1.jpg"
-                         alt="Брендбук компании Airsoft" />
+                    <picture>
+                        <source srcSet={'/assets/img/guideline-and-brand-book-creation-and-examples-1 1.webp'} type="image/webp" />
+                        <img className="portfolio-item__image mb-10"
+                             src="/assets/img/guideline-and-brand-book-creation-and-examples-1 1.jpg"
+                             alt="Брендбук компании Airsoft" />
+                    </picture>
                         <h6 className="mb-10">
                             Брендбук компании Airsoft
                         </h6>
