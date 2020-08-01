@@ -1,6 +1,9 @@
+import CustomHead from "../head/head";
+
 export default function PortfolioGrid() {
     return (
         <div className="row dalacode-grid">
+            <CustomHead pageTitle={'Портфолио'} />
             <div className="col-lg-6">
                 <div className="portfolio-item">
                     <picture className="portfolio-item__image mb-10">
