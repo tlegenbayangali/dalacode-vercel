@@ -1,15 +1,11 @@
-import CustomHead from "../head/head";
-
 export default function PortfolioGrid() {
     return (
         <div className="row dalacode-grid">
-            <CustomHead pageTitle={'Портфолио'} />
             <div className="col-lg-6">
                 <div className="portfolio-item">
-                    <picture className="portfolio-item__image mb-10">
+                    <picture>
                         <source srcset="/assets/img/guideline-and-brand-book-creation-and-examples-1 1.webp" type="image/webp" />
-                        <img src="/assets/img/guideline-and-brand-book-creation-and-examples-1 1.jpg"
-                             alt="Брендбук компании Airsoft" />
+                        <img src="/assets/img/guideline-and-brand-book-creation-and-examples-1 1.jpg" alt="Брендбук компании Airsoft" />
                     </picture>
                         <h6 className="mb-10">
                             Брендбук компании Airsoft
