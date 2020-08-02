@@ -7,10 +7,8 @@ import React, { useEffect } from 'react';
 
 export default function HeaderMain() {
     useEffect(function mount() {
-        window.onresize = function() {
-            if (window.innerWidth >= 992) {
-                const header = new Headhesive('.header')
-            }
+        if (window.innerWidth >= 992) {
+            const header = new Headhesive('.header')
         }
     })
     return (
