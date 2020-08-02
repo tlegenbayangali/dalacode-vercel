@@ -3,7 +3,6 @@ import MenuTop from "./menu-top"
 function menuOpen() {
     const menuWrapper = document.querySelector('.dalacode-nav-wrapper')
     const overlay = document.querySelector('.dalacode-nav-overlay')
-    const hamburger = document.querySelector('.dalacode-hamburger')
 
     menuWrapper.classList.add('opened')
     overlay.classList.add('opened')
@@ -13,7 +12,6 @@ function menuOpen() {
 function menuClose() {
     const menuWrapper = document.querySelector('.dalacode-nav-wrapper')
     const overlay = document.querySelector('.dalacode-nav-overlay')
-    const close = document.querySelector('.dalacode-nav-close')
 
     menuWrapper.classList.remove('opened')
     overlay.classList.remove('opened')
