@@ -10,7 +10,7 @@ export default function WebDev() {
                 <div className="container">
                     <div className="row align-items-center">
                         <div className="col-lg-6">
-                            <h5 className="mb-20">Разработка веб-сайта</h5>
+                            <h5 className="mb-20">Разработка веб-сайта.</h5>
                             <p className="mb-20">В наши дни уже трудно представить бизнес без Интернета. Наверное,
                                 потому что он Интернет — это сегодняшний мир обитания почти каждого потенциального
                                 клиента.</p>

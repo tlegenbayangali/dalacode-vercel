@@ -1,9 +1,11 @@
 
 import Link from "next/link";
+import CustomHead from "../components/partials/head/head";
 
 export default function Error404() {
     return (
         <>
+            <CustomHead pageTitle={'Страница не найдена'} />
             <div className="pt-60 pb-60">
                 <div className="container">
                     <div className="row align-items-center">

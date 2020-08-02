@@ -56,7 +56,7 @@ export default function Index() {
                         </div>
                         <div className="row">
                             <div className="col-lg-4">
-                                <Link href="/brief"><motion.a variants={{
+                                <motion.div variants={{
                                     from: {
                                         opacity: 0,
                                         y: 20
@@ -69,7 +69,9 @@ export default function Index() {
                                         opacity: 0,
                                         y: -20
                                     }
-                                }} className="btn lg">Заполнить бриф</motion.a></Link>
+                                }} >
+                                    <Link href="/brief"><a className="btn lg">Заполнить бриф</a></Link>
+                                </motion.div>
                             </div>
                         </div>
                     </div>

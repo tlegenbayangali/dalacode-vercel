@@ -2,7 +2,7 @@
 import Link from "next/link";
 import CustomHead from "../../components/partials/head/head";
 
-export default function WebDev() {
+export default function Reconstruction() {
     return (
         <>
             <CustomHead pageTitle={'Реконструкция веб-сайта'} />
@@ -10,7 +10,7 @@ export default function WebDev() {
                 <div className="container">
                     <div className="row align-items-center">
                         <div className="col-lg-6">
-                            <h5 className="mb-20">Реконструкция веб-сайта</h5>
+                            <h5 className="mb-20">Реконструкция веб-сайта.</h5>
                             <p className="mb-20">Вы уже более опытный бизнесмен, и давно поняли, что стоит работать в
                                 Интернете. Вы разработали сайт, он отработал не один год, но, как и у всего в нашей
                                 Вселенной, и у срока работы сайта приходит конец. Сайт морально устарел и он больше не

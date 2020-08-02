@@ -11,7 +11,7 @@ export default function OurTeam() {
                         </h4>
                     </div>
                 </div>
-                <div className="row">
+                <div className="row dalacode-grid">
                     <OurTeamSingle name={'John Doe'} photo={'/assets/img/s1200.png'} position={'Веб-разработчик'} />
                     <OurTeamSingle name={'John Doe'} photo={'/assets/img/s1200.png'} position={'Веб-разработчик'} />
                     <OurTeamSingle name={'John Doe'} photo={'/assets/img/s1200.png'} position={'Веб-разработчик'} />

@@ -2,7 +2,7 @@
 import Link from "next/link";
 import CustomHead from "../../components/partials/head/head";
 
-export default function WebDev() {
+export default function Support() {
     return (
         <>
             <CustomHead pageTitle={'Поддержка веб-сайта'} />
