@@ -1,74 +1,43 @@
+import ChartHorizontalOne from "../../../components/partials/chart/horizontal/chart-1";
 import Link from "next/link";
-import ChartHorizontalOne from "../../components/partials/chart/horizontal/chart-1"
-import CustomHead from "../../components/partials/head/head";
+import CustomHead from "../../../components/partials/head/head";
 
-export default function LandingPage() {
+export default function Corp() {
     return (
         <>
-            <CustomHead pageTitle={'Что такое Landing Page'} />
+            <CustomHead pageTitle={'Что такое корпоративный сайт?'} />
             <div className="service web-development pt-120 pb-60">
                 <div className="container">
                     <div className="row align-items-center">
                         <div className="col-lg-6">
-                            <img src="/assets/img/posts/Astronaut-bro.svg" alt="Что такое Landing Page?" />
+                            <h4 className="mb-20">Разработка корпоративного сайта</h4>
+                            <p className="mb-20">Стоит сразу предупредить, что не стоит путать корпоративный сайт с
+                                сайтом-визиткой. Возможно у них есть сходства, но различий намного больше. Дело в том,
+                                что сайт-визитка предназначен, в основном, для предоставления информации о компании в
+                                сжатом формате.</p>
+                            <p className="mb-20-xl">Из-за своей относительной дешевизны сайт-визитка не может обеспечить
+                                взаимодействие с посетителем. А корпоративный сайт — это что то вроде виртуального
+                                офиса, который может встретить посетителя, ознакомить с компанией, и даже
+                                повзаимодействовать с ним.</p>
                         </div>
                         <div className="col-lg-6">
-                            <h4 className="mb-20">Разработка Landing Page</h4>
-                            <p className="mb-20">Landing Page - одностраничный сайт, помогающий продвинуть свои услуги или
-                                товары в сети Интернет. Благодаря маркетинговым трюкам Landing Page побуждает целевую
-                                аудиторию на действие: покупка товара, заявка на консультацию или заказ услуги.</p>
-                            <p>Landing Page обычно состоит из секций, которые довольно компактно и лаконично предоставляют
-                                информацию клиенту. Можно сказать, что Landing Page — это узкий корридор, который ведет
-                                посетителя к двум финалам сценария: к действию или недействию.</p>
+                            <img src="/assets/img/posts/Experts-bro.svg" alt="Что такое Корпоративный сайт?" />
                         </div>
                     </div>
                 </div>
             </div>
             <div className="product-types dalacode-secondary pt-60 pb-60">
                 <div className="container">
-                    <div className="row">
-                        <div className="col-lg-12">
-                        </div>
-                    </div>
                     <div className="row align-items-center">
                         <div className="col-lg-6">
-                            <h5 className="mb-20">Почему Landing Page?</h5>
-                            <p className="mb-20">Можно рассмотреть и другие варианты строения сайта, к примеру,
-                                интернет-магазин, но для данного проекта такое решение будет сравнимо стрельбе из пушки по
-                                воробьям.</p>
-                            <h5 className="mb-20">Простой пример из жизни.</h5>
-                            <p className="mb-20">Есть человек, который занимается бизнесом. Назовем его Ержан. Ержан продает
-                                кроссовки собственного производства. Конечно же, он может завести страницу Instagram, и это
-                                будет довольно грамотным решением для первого шага в реализации своего товара.</p>
-                            <p className="mb-20">Время идет, кроссовки продаются, но хотелось бы больше продаж, больше клиентов.
-                                Как же быть Ержану? Ему как раз подсказали, что можно заказать разработку веб-сайта у
-                                специалистов.</p>
+                            <img src="/assets/img/Setup-bro.svg" alt="В чем интерактивность корпоративного сайта?" />
                         </div>
                         <div className="col-lg-6">
-                            <img src="/assets/img/Training at home-bro.svg" alt="Почему Landing Page?" />
-                        </div>
-                    </div>
-                    <div className="row">
-                        <div className="col-lg-6">
-                            <p className="mb-20">Ержан, заполнив <Link href="/brief"><a className="dalacode-link">бриф</a></Link> заказывает
-                                разработку посадочной страницы у dalacode, где команда начинает <Link href="/info/research"><a className="dalacode-link">исследование
-                                    бизнеса</a></Link> , изучение потребителей по разным факторам и параметрам. Наверное, не стоит
-                                перечислять все этапы разработки проектов, так как для этого у нас на сайте опубликованы <Link href="/info"><a
-                                    className="dalacode-link">целые статьи</a></Link> по каждой теме, и в конце данной
-                                страницы есть блок <Link href="#iteration"><a className="dalacode-link">этапов разработки</a></Link>.</p>
-                            <p className="mb-20">Разработка успешно завершена!!! Какие действия будут дальше? Команда dalacode
-                                публикует сайт на удаленном хостинге, после чего сайт начнет индексироваться поисковиками Google и Yandex (самые популярные
-                                поисковики в наших странах).</p>
-                        </div>
-                        <div className="col-lg-6">
-                            <p className="mb-20">При правильной поддержке и грамотной <Link href="/services/seo"><a className="dalacode-link">SEO
-                                оптимизации</a></Link> сайт будет подниматься в выдаче на запросы в поисковых системах, а значит, будет
-                                расти трафик сайта, а значит будут увеличиваться продажи.</p>
-                            <p className="mb-20">К примеру, потенциальный покупатель нашего Ержана вбивает запрос "купить
-                                кроссовки собственного производства", и если все вышеупомянутые пункты были соблюдены, то
-                                поисковая системы приведет покупателя на сайт Ержана.</p>
-                            <p>Можно привести еще множество примеров применения Landig Page. Но остановимся на нашем
-                                Ержане:)</p>
+                            <h5 className="mb-20">В чем интерактивность корпоративного сайта?</h5>
+                            <p className="mb-20">Как было сказано выше, корпоративный сайт отличается обеспечением
+                                плотного взаимодействия с посетителем (потенциальным клиентом).</p>
+                            <p><em>Например: онлайн-консультант, заполнение форм заявки, оставление заявок, личный
+                                кабинет и многое другое.</em></p>
                         </div>
                     </div>
                 </div>
@@ -78,17 +47,17 @@ export default function LandingPage() {
                     <div className="row">
                         <div className="col-lg-12">
                             <h5 className="mb-20 jcc">
-                                Характеристика LP.
+                                Характеристика Интернет-магазина.
                             </h5>
                         </div>
                     </div>
                     <div className="row justify-content-center">
                         <div className="col-lg-6">
-                            <div className="chart-card horizontal mb-20-xl">
+                            <div className="chart-card horizontal">
                                 <ul>
-                                    <ChartHorizontalOne text={'Дизайн'} color={'purple'} percentage={30} />
-                                    <ChartHorizontalOne text={'Функциональность'} color={'glue'} percentage={20} />
-                                    <ChartHorizontalOne text={'Маркетинг'} color={'gray'} percentage={50} />
+                                    <ChartHorizontalOne percentage={45} text={'Интерактивность'} color={'orange'} />
+                                    <ChartHorizontalOne percentage={35} text={'Функциональность'} color={'glue'} />
+                                    <ChartHorizontalOne percentage={20} text={'Информативность'} color={'gray'} />
                                 </ul>
                             </div>
                         </div>
@@ -96,7 +65,7 @@ export default function LandingPage() {
                     <div className="row">
                         <div className="col-lg-12">
                             <div className="jcc">
-                                <Link href="/brief/webdev/lp"><a className="btn lg mt-30">Заполнить бриф</a></Link>
+                                <a href="/brief/webdev/corp" className="btn lg mt-30">Заполнить бриф</a>
                             </div>
                         </div>
                     </div>
@@ -227,7 +196,7 @@ export default function LandingPage() {
                     <div className="row">
                         <div className="col-lg-12">
                             <div className="jcc">
-                                <Link href="/info">
+                                <Link href="/info/site-types">
                                     <a className="btn md secondary mt-30">
                                         Вернуться к списку
                                     </a>

@@ -1,20 +1,21 @@
+import LayoutNews from "../../../components/layouts/layout-news";
 import Link from "next/link";
-import LayoutNews from "../../components/layouts/layout-news";
 
-export default function SiteTypes() {
+export default function BrandingIndex() {
     return (
-        <LayoutNews title={'Инфо'}>
+        <LayoutNews title={'Брендинг компании'}>
             <div className="col-lg-12">
                 <div className="info-item">
                     <div className="img">
-                        <img src="/assets/img/posts/Tabs-bro.svg" alt="Типы сайтов" />
+                        <img src="/assets/img/Social ideas-bro.svg" alt="Что такое брендинг компании?" />
                     </div>
                     <div className="text-content">
-                        <h5 className="mb-20">Какие типы сайтов бывают?</h5>
+                        <h5 className="mb-20">Что такое брендинг компании?</h5>
                         <p className="mb-20">
-                            При разработке сайта необходимо определить требования к сайту. Будет ли он рекламировать товар, онлайн продажа, информирование клиентов и тд.
+                            Никогда не задумывались, благодаря чему всемирно известные бренды
+                            узнаваемы? Если задумались, то это к путь к улучшению дел в Вашем бизнесе.
                         </p>
-                        <Link href="/info/site-types">
+                        <Link href="/services/brand/branding">
                             <a className="read-more">
                                 Подробнее
                                 <svg width="12" height="6" viewBox="0 0 12 6" fill="none"
@@ -29,14 +30,15 @@ export default function SiteTypes() {
             <div className="col-lg-12">
                 <div className="info-item">
                     <div className="img">
-                        <img src="/assets/img/posts/Data points-bro.svg" alt="Исследование бизнеса" />
+                        <img src="/assets/img/Checklist-bro.svg" alt="Что такое гайдлайн?" />
                     </div>
                     <div className="text-content">
-                        <h5 className="mb-20">Исследование бизнеса.</h5>
+                        <h5 className="mb-20">Что такое гайдлайн?</h5>
                         <p className="mb-20">
-                            При разработке сайта необходимо определить требования к сайту. Будет ли он рекламировать товар, онлайн продажа, информирование клиентов и тд.
+                            Никогда не задумывались, благодаря чему всемирно известные бренды
+                            узнаваемы? Если задумались, то это к путь к улучшению дел в Вашем бизнесе.
                         </p>
-                        <Link href="/info/research">
+                        <Link href="/services/brand/guideline">
                             <a className="read-more">
                                 Подробнее
                                 <svg width="12" height="6" viewBox="0 0 12 6" fill="none"

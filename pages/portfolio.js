@@ -1,9 +1,11 @@
 import PortfolioGrid from "../components/partials/portfolio-grid/portfolio-grid";
 import  { motion } from "framer-motion";
+import CustomHead from "../components/partials/head/head";
 
 export default function Portfolio() {
     return (
         <div className="portfolio pt-120 pb-60" id="portfolio">
+            <CustomHead pageTitle={'Портфолио'} />
             <div className="container">
                 <div className="row">
                     <div className="col-lg-12">

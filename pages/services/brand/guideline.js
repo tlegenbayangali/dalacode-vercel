@@ -1,25 +1,19 @@
-
+import CustomHead from "../../../components/partials/head/head";
 import Link from "next/link";
-import CustomHead from "../../components/partials/head/head";
 
-export default function Branding() {
+export default function Guideline() {
     return (
         <>
-            <CustomHead pageTitle={'Брендинг компании'} />
+            <CustomHead pageTitle={'Гайдлайн'} />
             <div className="pt-120 pb-60">
                 <div className="container">
                     <div className="row align-items-center">
                         <div className="col-lg-6">
-                            <h4 className="mb-20">Брендинг компании.</h4>
-                            <p className="mb-20">Никогда не задумывались, благодаря чему всемирно известные бренды
-                                узнаваемы? Если задумались, то это к путь к улучшению дел в Вашем бизнесе.</p>
-                            <p>Дело в том, что на ранних стадиях развития известные компании разрабатывали свой
-                                брендбук, который помогает дизайнерам создавать новые вещи, основываясь на этот брендбук
-                                компании. Это что-то вроде кодекса дизайнера, в котором описаны все правила
-                                использования фирменного стиля компании: логотип, шрифт, цвета и тд.</p>
+                            <h4 className="mb-20">Гайдлайн компании.</h4>
+                            <p className="mb-20">У вас есть свое собственное видение <Link href="/services/brand/branding"><a className="dalacode-link">фирменного стиля</a></Link> Вашей компании.</p>
                         </div>
                         <div className="col-lg-6">
-                            <img src="/assets/img/Social ideas-bro.svg" alt="dalacode.kz - Брендинг компании"
+                            <img src="/assets/img/Checklist-bro.svg" alt="dalacode.kz - Гайдлайн компании"
                                  className="dalacode-right-img" />
                         </div>
                     </div>
@@ -42,7 +36,7 @@ export default function Branding() {
                                 поймать рыбу.</p>
                             <p>Если Вы задумывались над этим вопросом, то нет смысла откладывать это на завтра, так как
                                 конкуренты уже вовсю используют все инструменты маркетинга.</p>
-                            <a href="/brief/branding" className="mt-30 btn md">Заказать услугу</a>
+                            <a href="/brief/brand/branding" className="mt-30 btn md">Заказать услугу</a>
                         </div>
                     </div>
                 </div>
@@ -127,7 +121,7 @@ export default function Branding() {
                     <div className="row">
                         <div className="col-lg-12">
                             <div className="jcc">
-                                <Link href="/services">
+                                <Link href="/services/brand">
                                     <a className="btn md secondary mt-30">
                                         Вернуться к списку
                                     </a>

@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Footer() {
     return (
         <footer className="footer" id="footer">
@@ -11,16 +13,15 @@ export default function Footer() {
                         <div className="col-lg-2 col-sm-4 footer-column">
                             <h6 className="mb-20">Анализ</h6>
                             <ul className="footer-menu">
-                                <li><a href="#">Исследование</a></li>
-                                <li><a href="#">Стратегия</a></li>
+                                <li><Link href="/info/research"><a>Исследование</a></Link></li>
                             </ul>
                         </div>
                         <div className="col-lg-2 col-sm-8 footer-column">
                             <h6 className="mb-20">Бренд</h6>
                             <ul className="footer-menu">
-                                <li><a href="#">Брендбук</a></li>
-                                <li><a href="#">Гайдлайн</a></li>
-                                <li><a href="#">Логотип</a></li>
+                                <li><Link href="/services/brand/branding"><a>Брендбук</a></Link></li>
+                                <li><Link href="/services/brand/guideline"><a>Гайдлайн</a></Link></li>
+                                <li><Link href="/services/brand/logo"><a>Логотип</a></Link></li>
                             </ul>
                         </div>
                         <div className="col-lg-2 col-sm-4 footer-column">

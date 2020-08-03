@@ -1,6 +1,6 @@
-import ChartHorizontalOne from "../../components/partials/chart/horizontal/chart-1";
+import ChartHorizontalOne from "../../../components/partials/chart/horizontal/chart-1";
 import Link from "next/link";
-import CustomHead from "../../components/partials/head/head";
+import CustomHead from "../../../components/partials/head/head";
 
 export default function Cutaway() {
     return (
@@ -210,7 +210,7 @@ export default function Cutaway() {
                     <div className="row">
                         <div className="col-lg-12">
                             <div className="jcc">
-                                <Link href="/info">
+                                <Link href="/info/site-types">
                                     <a className="btn md secondary mt-30">
                                         Вернуться к списку
                                     </a>

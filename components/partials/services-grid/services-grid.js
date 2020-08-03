@@ -142,7 +142,7 @@ export default function ServicesGrid() {
                     </Link>
                 </div>
                 <div className="col-lg-6">
-                    <Link href="/services/branding">
+                    <Link href="/services/brand">
                         <a className="services-item">
                             <div className="icon-part mr-20">
                                 <svg width="50" height="50" viewBox="0 0 50 50" fill="none"
