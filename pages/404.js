@@ -6,7 +6,7 @@ export default function Error404() {
     return (
         <>
             <CustomHead pageTitle={'Страница не найдена'} />
-            <div className="pt-60 pb-60">
+            <div className="pt-120 pb-60">
                 <div className="container">
                     <div className="row align-items-center">
                         <div className="col-lg-6">

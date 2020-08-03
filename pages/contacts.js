@@ -19,7 +19,7 @@ export default function Contacts() {
                             opacity: 0
                         }
                     }} className="col-lg-6">
-                        <h1 className="mb-30">Контакты</h1>
+                        <h2 className="mb-30">Контакты</h2>
                         <h6 className="mb-30">
                             Что-то заинтересовало? Свяжитесь с нами, мы обязательно Вам поможем...
                         </h6>

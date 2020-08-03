@@ -27,17 +27,16 @@ export default function Footer() {
                         <div className="col-lg-2 col-sm-4 footer-column">
                             <h6 className="mb-20">Дизайн</h6>
                             <ul className="footer-menu">
-                                <li><a href="#">UX/UI</a></li>
-                                <li><a href="#">Веб-дизайн</a></li>
-                                <li><a href="#">Прототипирование</a></li>
+                                <li><Link href="/services/uxui"><a>UX/UI</a></Link></li>
+                                <li><Link href="/info/webdesign"><a>Веб-дизайн</a></Link></li>
+                                <li><Link href="/info/prototype"><a>Прототипирование</a></Link></li>
                             </ul>
                         </div>
                         <div className="col-lg-2 col-sm-8 footer-column">
                             <h6 className="mb-20">Разработка</h6>
                             <ul className="footer-menu">
-                                <li><a href="#">Веб-разработка</a></li>
-                                <li><a href="#">Сервис</a></li>
-                                <li><a href="#">Для клиентов</a></li>
+                                <li><Link href="/services/webdev"><a>Веб-разработка</a></Link></li>
+                                <li><Link href="/info/online-service"><a>Онлайн-сервис</a></Link></li>
                             </ul>
                         </div>
                     </div>
