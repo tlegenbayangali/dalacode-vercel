@@ -1,4 +1,7 @@
 import MenuTop from "./menu-top"
+import React, { useEffect, useState } from 'react'
+
+const asd = 'asd'
 
 function menuOpen() {
     const menuWrapper = document.querySelector('.dalacode-nav-wrapper')
@@ -19,6 +22,20 @@ function menuClose() {
 }
 
 export default function HeaderMenuWrapper() {
+    useEffect(function mount() {
+
+        (function() {
+            const menuLink = document.querySelectorAll('.dalacode-nav-wrapper a')
+
+            menuLink.forEach(item => {
+                item.addEventListener('click', function() {
+                    menuClose()
+                })
+            })
+
+        })()
+
+    })
     return (
         <>
             <div className="dalacode-nav-overlay"></div>
