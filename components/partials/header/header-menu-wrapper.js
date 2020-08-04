@@ -1,7 +1,5 @@
 import MenuTop from "./menu-top"
-import React, { useEffect, useState } from 'react'
-
-const asd = 'asd'
+import React, { useEffect } from 'react'
 
 function menuOpen() {
     const menuWrapper = document.querySelector('.dalacode-nav-wrapper')

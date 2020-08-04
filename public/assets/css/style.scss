@@ -21,6 +21,11 @@ img {
     max-width: 100%;
     display: block;
 }
+svg {
+    path {
+        pointer-events: none;
+    }
+}
 /* Specification */
 
 /* dalacode Utils */
@@ -133,6 +138,9 @@ img {
     &-hamburger {
         display: none;
         cursor: pointer;
+        svg {
+            display: block;
+        }
         @media screen and (max-width: 991px) {
             display: block;
         }
