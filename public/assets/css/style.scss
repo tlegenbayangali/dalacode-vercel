@@ -668,6 +668,10 @@ p {
             line-height: 40px;
         }
     }
+    @media screen and (max-width: 991px) {
+        height: auto;
+        padding-bottom: 60px;
+    }
     @media screen and (max-width: 767px) {
         padding-top: 200px;
     }
