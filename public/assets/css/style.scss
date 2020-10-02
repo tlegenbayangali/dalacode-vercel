@@ -49,6 +49,24 @@ svg {
             width: 100%;
         }
     }
+    &-tags {
+        margin-top: -5px;
+        margin-bottom: 30px;
+        ul {
+            li {
+                margin-top: 5px;
+                font-size: 12px;
+                display: inline-block;
+                padding: 4px;
+                line-height: 1;
+                border: 1px solid $dark_gray;
+                margin-right: 5px;
+                &:last-child {
+                    margin-right: 0;
+                }
+            }
+        }
+    }
     &-nav {
         display: flex;
         align-items: center;

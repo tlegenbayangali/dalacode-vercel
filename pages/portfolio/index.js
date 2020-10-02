@@ -1,6 +1,6 @@
-import PortfolioGrid from "../components/partials/portfolio-grid/portfolio-grid";
+import PortfolioGrid from "../../components/partials/portfolio-grid/portfolio-grid";
 import  { motion } from "framer-motion";
-import CustomHead from "../components/partials/head/head";
+import CustomHead from "../../components/partials/head/head";
 
 export default function Portfolio() {
     return (
